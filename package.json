@@ -1,0 +1,32 @@
+{
+  "name": "npm-proxy-center",
+  "version": "1.0.0",
+  "description": "A npm proxy to get package in local repository or remote repository.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set DEBUG=*,-not_this && supervisor node index.js",
+    "start": "npm start",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shushanfx/npm-proxy-center.git"
+  },
+  "keywords": [
+    "npm",
+    "proxy",
+    "center"
+  ],
+  "author": "shushanfx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shushanfx/npm-proxy-center/issues"
+  },
+  "homepage": "https://github.com/shushanfx/npm-proxy-center#readme",
+  "dependencies": {
+    "config": "^1.28.1",
+    "debug": "^3.1.0",
+    "koa": "^2.4.1",
+    "koa2-request-middle": "^1.0.2"
+  }
+}

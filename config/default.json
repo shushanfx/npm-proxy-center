@@ -1,0 +1,7 @@
+{
+	"port": "18080",
+	"registry": {
+		"local": "http://zkconfig.qiyi.domain/registry",
+		"remote": "https://skimdb.npmjs.com/registry"
+	}
+}

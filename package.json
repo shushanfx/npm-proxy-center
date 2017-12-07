@@ -27,6 +27,7 @@
     "config": "^1.28.1",
     "debug": "^3.1.0",
     "koa": "^2.4.1",
-    "koa2-request-middle": "^1.0.2"
+    "koa2-request-middle": "^1.0.3",
+    "merge": "^1.2.0"
   }
 }
